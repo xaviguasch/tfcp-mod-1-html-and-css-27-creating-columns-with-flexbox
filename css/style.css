@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -33,4 +34,9 @@ header {
 
 .columns {
   width: 750px;
+  display: flex;
+}
+
+.column {
+  margin: 10px;
 }
